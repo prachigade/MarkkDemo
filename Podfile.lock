@@ -1,0 +1,26 @@
+PODS:
+  - BSImagePicker (3.3.1)
+  - Cloudinary (2.9.0):
+    - Cloudinary/ios (= 2.9.0)
+  - Cloudinary/ios (2.9.0)
+  - Floaty (4.2.0)
+
+DEPENDENCIES:
+  - BSImagePicker
+  - Cloudinary
+  - Floaty
+
+SPEC REPOS:
+  trunk:
+    - BSImagePicker
+    - Cloudinary
+    - Floaty
+
+SPEC CHECKSUMS:
+  BSImagePicker: 0fe04b574d4d6b81093785d2af6c26227efc8428
+  Cloudinary: 8e9511826bd58df6b14f0c6c042f2c5a034081f4
+  Floaty: e2bd5a0f6f7f70899e26ff2da31081c8bee8d1b0
+
+PODFILE CHECKSUM: f10eb7eb655e7ce29bda955f6070a494bf111886
+
+COCOAPODS: 1.9.3

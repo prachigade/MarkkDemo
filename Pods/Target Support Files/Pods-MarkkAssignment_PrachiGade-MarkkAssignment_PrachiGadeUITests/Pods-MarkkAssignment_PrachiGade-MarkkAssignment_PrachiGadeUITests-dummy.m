@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests
+@end

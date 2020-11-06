@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PhotoListCollectionViewCell" customModule="MarkkAssignment_PrachiGade" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPM-ah-k0x">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aAQ-qO-N4J">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aAQ-qO-N4J" firstAttribute="centerY" secondItem="nPM-ah-k0x" secondAttribute="centerY" id="fUt-pD-YUb"/>
+                            <constraint firstItem="aAQ-qO-N4J" firstAttribute="height" secondItem="nPM-ah-k0x" secondAttribute="height" id="tlw-Ct-Iae"/>
+                            <constraint firstItem="aAQ-qO-N4J" firstAttribute="width" secondItem="nPM-ah-k0x" secondAttribute="width" id="vqS-mI-SK7"/>
+                            <constraint firstItem="aAQ-qO-N4J" firstAttribute="centerX" secondItem="nPM-ah-k0x" secondAttribute="centerX" id="zSk-yY-LcY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="nPM-ah-k0x" secondAttribute="bottom" id="09l-zF-lJc"/>
+                <constraint firstAttribute="trailing" secondItem="nPM-ah-k0x" secondAttribute="trailing" id="WgR-Qh-XqU"/>
+                <constraint firstItem="nPM-ah-k0x" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eq9-hp-QZz"/>
+                <constraint firstItem="nPM-ah-k0x" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="pKR-TP-3Wp"/>
+            </constraints>
+            <connections>
+                <outlet property="imgContainerView" destination="nPM-ah-k0x" id="uy8-FG-GNN"/>
+                <outlet property="imgView" destination="aAQ-qO-N4J" id="aXf-kt-oFA"/>
+            </connections>
+            <point key="canvasLocation" x="-136" y="48"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

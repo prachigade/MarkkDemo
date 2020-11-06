@@ -1,0 +1,6 @@
+framework module Pods_MarkkAssignment_PrachiGadeTests {
+  umbrella header "Pods-MarkkAssignment_PrachiGadeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

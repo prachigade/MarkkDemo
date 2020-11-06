@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1683CCB5667360B1EE21FE86 /* Pods_MarkkAssignment_PrachiGadeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE007F74B7448E125BFA8311 /* Pods_MarkkAssignment_PrachiGadeTests.framework */; };
+		4E2CDC03254D664200874C13 /* PhotosListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDBFD254D664200874C13 /* PhotosListPresenter.swift */; };
+		4E2CDC04254D664200874C13 /* PhotosListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDBFE254D664200874C13 /* PhotosListWorker.swift */; };
+		4E2CDC05254D664200874C13 /* PhotosListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDBFF254D664200874C13 /* PhotosListRouter.swift */; };
+		4E2CDC06254D664200874C13 /* PhotosListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC00254D664200874C13 /* PhotosListModels.swift */; };
+		4E2CDC07254D664200874C13 /* PhotosListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC01254D664200874C13 /* PhotosListViewController.swift */; };
+		4E2CDC08254D664200874C13 /* PhotosListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC02254D664200874C13 /* PhotosListInteractor.swift */; };
+		4E2CDC0E254D68CC00874C13 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC0D254D68CC00874C13 /* UIColor+Extension.swift */; };
+		4E2CDC4C254EB70A00874C13 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC4B254EB70A00874C13 /* PinterestLayout.swift */; };
+		4E2CDC5B254EBF5000874C13 /* PhotoListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2CDC59254EBF5000874C13 /* PhotoListCollectionViewCell.swift */; };
+		4E2CDC5C254EBF5000874C13 /* PhotoListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E2CDC5A254EBF5000874C13 /* PhotoListCollectionViewCell.xib */; };
+		4E3B787625500E3000E18CC4 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3B787525500E3000E18CC4 /* Models.swift */; };
+		4E4B70702552EDB800727F3F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B706F2552EDB800727F3F /* Constants.swift */; };
+		4E4B70992555650E00727F3F /* PhotosListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B70952555650E00727F3F /* PhotosListViewControllerTests.swift */; };
+		4E4B709A2555650E00727F3F /* PhotosListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B70962555650E00727F3F /* PhotosListInteractorTests.swift */; };
+		4E4B709B2555650E00727F3F /* PhotosListWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B70972555650E00727F3F /* PhotosListWorkerTests.swift */; };
+		4E4B709C2555650E00727F3F /* PhotosListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4B70982555650E00727F3F /* PhotosListPresenterTests.swift */; };
+		4E57B424254D541200D1E752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57B423254D541200D1E752 /* AppDelegate.swift */; };
+		4E57B426254D541200D1E752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57B425254D541200D1E752 /* SceneDelegate.swift */; };
+		4E57B42B254D541200D1E752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E57B429254D541200D1E752 /* Main.storyboard */; };
+		4E57B42D254D541500D1E752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E57B42C254D541500D1E752 /* Assets.xcassets */; };
+		4E57B430254D541500D1E752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E57B42E254D541500D1E752 /* LaunchScreen.storyboard */; };
+		4E57B43B254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57B43A254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.swift */; };
+		4E57B446254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57B445254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.swift */; };
+		4EDAD256254FEA9100311F7C /* UploadProgressPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD250254FEA9100311F7C /* UploadProgressPresenter.swift */; };
+		4EDAD257254FEA9100311F7C /* UploadProgressWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD251254FEA9100311F7C /* UploadProgressWorker.swift */; };
+		4EDAD258254FEA9100311F7C /* UploadProgressRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD252254FEA9100311F7C /* UploadProgressRouter.swift */; };
+		4EDAD259254FEA9100311F7C /* UploadProgressModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD253254FEA9100311F7C /* UploadProgressModels.swift */; };
+		4EDAD25A254FEA9100311F7C /* UploadProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD254254FEA9100311F7C /* UploadProgressViewController.swift */; };
+		4EDAD25B254FEA9100311F7C /* UploadProgressInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDAD255254FEA9100311F7C /* UploadProgressInteractor.swift */; };
+		9603F2DA1EF38C84D8C5DE7D /* Pods_MarkkAssignment_PrachiGade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A05DCAE345893733F287094 /* Pods_MarkkAssignment_PrachiGade.framework */; };
+		EAE5B4F4BC63F2AAB8C59CE7 /* Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A727E995F39B155419C24380 /* Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E57B437254D541500D1E752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E57B418254D541200D1E752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E57B41F254D541200D1E752;
+			remoteInfo = MarkkAssignment_PrachiGade;
+		};
+		4E57B442254D541500D1E752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E57B418254D541200D1E752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E57B41F254D541200D1E752;
+			remoteInfo = MarkkAssignment_PrachiGade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C8E4EC17CBCE8FF7DD2B01 /* Pods-MarkkAssignment_PrachiGade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGade.release.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade.release.xcconfig"; sourceTree = "<group>"; };
+		110CC566C63B682F0047A499 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.release.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4011A7AD4B01A6B74E866316 /* Pods-MarkkAssignment_PrachiGade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGade.debug.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade.debug.xcconfig"; sourceTree = "<group>"; };
+		43DAC827C4DEC75881504983 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A05DCAE345893733F287094 /* Pods_MarkkAssignment_PrachiGade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkkAssignment_PrachiGade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2CDBFD254D664200874C13 /* PhotosListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListPresenter.swift; sourceTree = "<group>"; };
+		4E2CDBFE254D664200874C13 /* PhotosListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListWorker.swift; sourceTree = "<group>"; };
+		4E2CDBFF254D664200874C13 /* PhotosListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListRouter.swift; sourceTree = "<group>"; };
+		4E2CDC00254D664200874C13 /* PhotosListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListModels.swift; sourceTree = "<group>"; };
+		4E2CDC01254D664200874C13 /* PhotosListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewController.swift; sourceTree = "<group>"; };
+		4E2CDC02254D664200874C13 /* PhotosListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListInteractor.swift; sourceTree = "<group>"; };
+		4E2CDC0D254D68CC00874C13 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4E2CDC4B254EB70A00874C13 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		4E2CDC59254EBF5000874C13 /* PhotoListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewCell.swift; sourceTree = "<group>"; };
+		4E2CDC5A254EBF5000874C13 /* PhotoListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoListCollectionViewCell.xib; sourceTree = "<group>"; };
+		4E3B787525500E3000E18CC4 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4E4B706F2552EDB800727F3F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4E4B70952555650E00727F3F /* PhotosListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListViewControllerTests.swift; sourceTree = "<group>"; };
+		4E4B70962555650E00727F3F /* PhotosListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListInteractorTests.swift; sourceTree = "<group>"; };
+		4E4B70972555650E00727F3F /* PhotosListWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListWorkerTests.swift; sourceTree = "<group>"; };
+		4E4B70982555650E00727F3F /* PhotosListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosListPresenterTests.swift; sourceTree = "<group>"; };
+		4E57B420254D541200D1E752 /* MarkkAssignment_PrachiGade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkkAssignment_PrachiGade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E57B423254D541200D1E752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E57B425254D541200D1E752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E57B42A254D541200D1E752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E57B42C254D541500D1E752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E57B42F254D541500D1E752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E57B431254D541500D1E752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E57B436254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkkAssignment_PrachiGadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E57B43A254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkkAssignment_PrachiGadeTests.swift; sourceTree = "<group>"; };
+		4E57B43C254D541500D1E752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E57B441254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarkkAssignment_PrachiGadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E57B445254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkkAssignment_PrachiGadeUITests.swift; sourceTree = "<group>"; };
+		4E57B447254D541600D1E752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDAD250254FEA9100311F7C /* UploadProgressPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressPresenter.swift; sourceTree = "<group>"; };
+		4EDAD251254FEA9100311F7C /* UploadProgressWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressWorker.swift; sourceTree = "<group>"; };
+		4EDAD252254FEA9100311F7C /* UploadProgressRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressRouter.swift; sourceTree = "<group>"; };
+		4EDAD253254FEA9100311F7C /* UploadProgressModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressModels.swift; sourceTree = "<group>"; };
+		4EDAD254254FEA9100311F7C /* UploadProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressViewController.swift; sourceTree = "<group>"; };
+		4EDAD255254FEA9100311F7C /* UploadProgressInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadProgressInteractor.swift; sourceTree = "<group>"; };
+		75F5C3B1AE1EA72A95177545 /* Pods-MarkkAssignment_PrachiGadeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGadeTests.release.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGadeTests/Pods-MarkkAssignment_PrachiGadeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A727E995F39B155419C24380 /* Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A765C19C9EC76429167FE22D /* Pods-MarkkAssignment_PrachiGadeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarkkAssignment_PrachiGadeTests.debug.xcconfig"; path = "Target Support Files/Pods-MarkkAssignment_PrachiGadeTests/Pods-MarkkAssignment_PrachiGadeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE007F74B7448E125BFA8311 /* Pods_MarkkAssignment_PrachiGadeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarkkAssignment_PrachiGadeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E57B41D254D541200D1E752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9603F2DA1EF38C84D8C5DE7D /* Pods_MarkkAssignment_PrachiGade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B433254D541500D1E752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1683CCB5667360B1EE21FE86 /* Pods_MarkkAssignment_PrachiGadeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B43E254D541500D1E752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE5B4F4BC63F2AAB8C59CE7 /* Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E2CDBFB254D661A00874C13 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD24F254FEA5E00311F7C /* UploadProgressScene */,
+				4E2CDBFC254D662200874C13 /* PhotosScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4E2CDBFC254D662200874C13 /* PhotosScene */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CDBFD254D664200874C13 /* PhotosListPresenter.swift */,
+				4E2CDBFE254D664200874C13 /* PhotosListWorker.swift */,
+				4E2CDBFF254D664200874C13 /* PhotosListRouter.swift */,
+				4E2CDC00254D664200874C13 /* PhotosListModels.swift */,
+				4E2CDC01254D664200874C13 /* PhotosListViewController.swift */,
+				4E2CDC02254D664200874C13 /* PhotosListInteractor.swift */,
+			);
+			path = PhotosScene;
+			sourceTree = "<group>";
+		};
+		4E2CDC0C254D684300874C13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CDC0D254D68CC00874C13 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E2CDC4A254EB6F300874C13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CDC4B254EB70A00874C13 /* PinterestLayout.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4E2CDC58254EBF1C00874C13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E2CDC59254EBF5000874C13 /* PhotoListCollectionViewCell.swift */,
+				4E2CDC5A254EBF5000874C13 /* PhotoListCollectionViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E3B787A25500E3400E18CC4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4E3B787525500E3000E18CC4 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4E4B706E2552EDA800727F3F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E4B706F2552EDB800727F3F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4E57B417254D541200D1E752 = {
+			isa = PBXGroup;
+			children = (
+				4E57B422254D541200D1E752 /* MarkkAssignment_PrachiGade */,
+				4E57B439254D541500D1E752 /* MarkkAssignment_PrachiGadeTests */,
+				4E57B444254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests */,
+				4E57B421254D541200D1E752 /* Products */,
+				F12977BD0EE213268BD460BF /* Pods */,
+				56B0A3BB7B5FC2C209D02993 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E57B421254D541200D1E752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E57B420254D541200D1E752 /* MarkkAssignment_PrachiGade.app */,
+				4E57B436254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.xctest */,
+				4E57B441254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E57B422254D541200D1E752 /* MarkkAssignment_PrachiGade */ = {
+			isa = PBXGroup;
+			children = (
+				4E57B423254D541200D1E752 /* AppDelegate.swift */,
+				4E57B425254D541200D1E752 /* SceneDelegate.swift */,
+				4E4B706E2552EDA800727F3F /* Constants */,
+				4E3B787A25500E3400E18CC4 /* Models */,
+				4E2CDC0C254D684300874C13 /* Extensions */,
+				4E2CDC4A254EB6F300874C13 /* Helpers */,
+				4E2CDC58254EBF1C00874C13 /* Views */,
+				4E2CDBFB254D661A00874C13 /* Scenes */,
+				4E57B429254D541200D1E752 /* Main.storyboard */,
+				4E57B42C254D541500D1E752 /* Assets.xcassets */,
+				4E57B42E254D541500D1E752 /* LaunchScreen.storyboard */,
+				4E57B431254D541500D1E752 /* Info.plist */,
+			);
+			path = MarkkAssignment_PrachiGade;
+			sourceTree = "<group>";
+		};
+		4E57B439254D541500D1E752 /* MarkkAssignment_PrachiGadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E57B43A254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.swift */,
+				4E57B43C254D541500D1E752 /* Info.plist */,
+				4E4B70952555650E00727F3F /* PhotosListViewControllerTests.swift */,
+				4E4B70962555650E00727F3F /* PhotosListInteractorTests.swift */,
+				4E4B70972555650E00727F3F /* PhotosListWorkerTests.swift */,
+				4E4B70982555650E00727F3F /* PhotosListPresenterTests.swift */,
+			);
+			path = MarkkAssignment_PrachiGadeTests;
+			sourceTree = "<group>";
+		};
+		4E57B444254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E57B445254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.swift */,
+				4E57B447254D541600D1E752 /* Info.plist */,
+			);
+			path = MarkkAssignment_PrachiGadeUITests;
+			sourceTree = "<group>";
+		};
+		4EDAD24F254FEA5E00311F7C /* UploadProgressScene */ = {
+			isa = PBXGroup;
+			children = (
+				4EDAD250254FEA9100311F7C /* UploadProgressPresenter.swift */,
+				4EDAD251254FEA9100311F7C /* UploadProgressWorker.swift */,
+				4EDAD252254FEA9100311F7C /* UploadProgressRouter.swift */,
+				4EDAD253254FEA9100311F7C /* UploadProgressModels.swift */,
+				4EDAD254254FEA9100311F7C /* UploadProgressViewController.swift */,
+				4EDAD255254FEA9100311F7C /* UploadProgressInteractor.swift */,
+			);
+			path = UploadProgressScene;
+			sourceTree = "<group>";
+		};
+		56B0A3BB7B5FC2C209D02993 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A05DCAE345893733F287094 /* Pods_MarkkAssignment_PrachiGade.framework */,
+				A727E995F39B155419C24380 /* Pods_MarkkAssignment_PrachiGade_MarkkAssignment_PrachiGadeUITests.framework */,
+				CE007F74B7448E125BFA8311 /* Pods_MarkkAssignment_PrachiGadeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F12977BD0EE213268BD460BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4011A7AD4B01A6B74E866316 /* Pods-MarkkAssignment_PrachiGade.debug.xcconfig */,
+				04C8E4EC17CBCE8FF7DD2B01 /* Pods-MarkkAssignment_PrachiGade.release.xcconfig */,
+				43DAC827C4DEC75881504983 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.debug.xcconfig */,
+				110CC566C63B682F0047A499 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.release.xcconfig */,
+				A765C19C9EC76429167FE22D /* Pods-MarkkAssignment_PrachiGadeTests.debug.xcconfig */,
+				75F5C3B1AE1EA72A95177545 /* Pods-MarkkAssignment_PrachiGadeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E57B41F254D541200D1E752 /* MarkkAssignment_PrachiGade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E57B44A254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGade" */;
+			buildPhases = (
+				6839DD0299C387D630603EA4 /* [CP] Check Pods Manifest.lock */,
+				4E57B41C254D541200D1E752 /* Sources */,
+				4E57B41D254D541200D1E752 /* Frameworks */,
+				4E57B41E254D541200D1E752 /* Resources */,
+				9701D9C3EF51415D2663F44F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkkAssignment_PrachiGade;
+			productName = MarkkAssignment_PrachiGade;
+			productReference = 4E57B420254D541200D1E752 /* MarkkAssignment_PrachiGade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E57B435254D541500D1E752 /* MarkkAssignment_PrachiGadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E57B44D254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGadeTests" */;
+			buildPhases = (
+				AD2BDA3D1F4124213BFC58F8 /* [CP] Check Pods Manifest.lock */,
+				4E57B432254D541500D1E752 /* Sources */,
+				4E57B433254D541500D1E752 /* Frameworks */,
+				4E57B434254D541500D1E752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E57B438254D541500D1E752 /* PBXTargetDependency */,
+			);
+			name = MarkkAssignment_PrachiGadeTests;
+			productName = MarkkAssignment_PrachiGadeTests;
+			productReference = 4E57B436254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E57B440254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E57B450254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGadeUITests" */;
+			buildPhases = (
+				3FA3DB571166FD270771EBAA /* [CP] Check Pods Manifest.lock */,
+				4E57B43D254D541500D1E752 /* Sources */,
+				4E57B43E254D541500D1E752 /* Frameworks */,
+				4E57B43F254D541500D1E752 /* Resources */,
+				91912C5797F8E95099E32253 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E57B443254D541500D1E752 /* PBXTargetDependency */,
+			);
+			name = MarkkAssignment_PrachiGadeUITests;
+			productName = MarkkAssignment_PrachiGadeUITests;
+			productReference = 4E57B441254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E57B418254D541200D1E752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4E57B41F254D541200D1E752 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					4E57B435254D541500D1E752 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4E57B41F254D541200D1E752;
+					};
+					4E57B440254D541500D1E752 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 4E57B41F254D541200D1E752;
+					};
+				};
+			};
+			buildConfigurationList = 4E57B41B254D541200D1E752 /* Build configuration list for PBXProject "MarkkAssignment_PrachiGade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E57B417254D541200D1E752;
+			productRefGroup = 4E57B421254D541200D1E752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E57B41F254D541200D1E752 /* MarkkAssignment_PrachiGade */,
+				4E57B435254D541500D1E752 /* MarkkAssignment_PrachiGadeTests */,
+				4E57B440254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E57B41E254D541200D1E752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E57B430254D541500D1E752 /* LaunchScreen.storyboard in Resources */,
+				4E2CDC5C254EBF5000874C13 /* PhotoListCollectionViewCell.xib in Resources */,
+				4E57B42D254D541500D1E752 /* Assets.xcassets in Resources */,
+				4E57B42B254D541200D1E752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B434254D541500D1E752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B43F254D541500D1E752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA3DB571166FD270771EBAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6839DD0299C387D630603EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkkAssignment_PrachiGade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91912C5797F8E95099E32253 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests/Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9701D9C3EF51415D2663F44F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD2BDA3D1F4124213BFC58F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarkkAssignment_PrachiGadeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E57B41C254D541200D1E752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2CDC4C254EB70A00874C13 /* PinterestLayout.swift in Sources */,
+				4E4B70702552EDB800727F3F /* Constants.swift in Sources */,
+				4E2CDC06254D664200874C13 /* PhotosListModels.swift in Sources */,
+				4E2CDC08254D664200874C13 /* PhotosListInteractor.swift in Sources */,
+				4EDAD259254FEA9100311F7C /* UploadProgressModels.swift in Sources */,
+				4E2CDC04254D664200874C13 /* PhotosListWorker.swift in Sources */,
+				4E2CDC0E254D68CC00874C13 /* UIColor+Extension.swift in Sources */,
+				4E2CDC07254D664200874C13 /* PhotosListViewController.swift in Sources */,
+				4EDAD258254FEA9100311F7C /* UploadProgressRouter.swift in Sources */,
+				4EDAD25B254FEA9100311F7C /* UploadProgressInteractor.swift in Sources */,
+				4EDAD256254FEA9100311F7C /* UploadProgressPresenter.swift in Sources */,
+				4E57B424254D541200D1E752 /* AppDelegate.swift in Sources */,
+				4EDAD257254FEA9100311F7C /* UploadProgressWorker.swift in Sources */,
+				4E57B426254D541200D1E752 /* SceneDelegate.swift in Sources */,
+				4E2CDC03254D664200874C13 /* PhotosListPresenter.swift in Sources */,
+				4E2CDC05254D664200874C13 /* PhotosListRouter.swift in Sources */,
+				4E3B787625500E3000E18CC4 /* Models.swift in Sources */,
+				4EDAD25A254FEA9100311F7C /* UploadProgressViewController.swift in Sources */,
+				4E2CDC5B254EBF5000874C13 /* PhotoListCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B432254D541500D1E752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4B709B2555650E00727F3F /* PhotosListWorkerTests.swift in Sources */,
+				4E57B43B254D541500D1E752 /* MarkkAssignment_PrachiGadeTests.swift in Sources */,
+				4E4B70992555650E00727F3F /* PhotosListViewControllerTests.swift in Sources */,
+				4E4B709A2555650E00727F3F /* PhotosListInteractorTests.swift in Sources */,
+				4E4B709C2555650E00727F3F /* PhotosListPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E57B43D254D541500D1E752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E57B446254D541500D1E752 /* MarkkAssignment_PrachiGadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E57B438254D541500D1E752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E57B41F254D541200D1E752 /* MarkkAssignment_PrachiGade */;
+			targetProxy = 4E57B437254D541500D1E752 /* PBXContainerItemProxy */;
+		};
+		4E57B443254D541500D1E752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E57B41F254D541200D1E752 /* MarkkAssignment_PrachiGade */;
+			targetProxy = 4E57B442254D541500D1E752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E57B429254D541200D1E752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E57B42A254D541200D1E752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E57B42E254D541500D1E752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E57B42F254D541500D1E752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E57B448254D541600D1E752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E57B449254D541600D1E752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E57B44B254D541600D1E752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4011A7AD4B01A6B74E866316 /* Pods-MarkkAssignment_PrachiGade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E57B44C254D541600D1E752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C8E4EC17CBCE8FF7DD2B01 /* Pods-MarkkAssignment_PrachiGade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGade";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E57B44E254D541600D1E752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A765C19C9EC76429167FE22D /* Pods-MarkkAssignment_PrachiGadeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGadeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkkAssignment_PrachiGade.app/MarkkAssignment_PrachiGade";
+			};
+			name = Debug;
+		};
+		4E57B44F254D541600D1E752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F5C3B1AE1EA72A95177545 /* Pods-MarkkAssignment_PrachiGadeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGadeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarkkAssignment_PrachiGade.app/MarkkAssignment_PrachiGade";
+			};
+			name = Release;
+		};
+		4E57B451254D541600D1E752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43DAC827C4DEC75881504983 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGadeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkkAssignment_PrachiGade;
+			};
+			name = Debug;
+		};
+		4E57B452254D541600D1E752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110CC566C63B682F0047A499 /* Pods-MarkkAssignment_PrachiGade-MarkkAssignment_PrachiGadeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MarkkAssignment_PrachiGadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.MarkkAssignment-PrachiGadeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MarkkAssignment_PrachiGade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E57B41B254D541200D1E752 /* Build configuration list for PBXProject "MarkkAssignment_PrachiGade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E57B448254D541600D1E752 /* Debug */,
+				4E57B449254D541600D1E752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E57B44A254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E57B44B254D541600D1E752 /* Debug */,
+				4E57B44C254D541600D1E752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E57B44D254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E57B44E254D541600D1E752 /* Debug */,
+				4E57B44F254D541600D1E752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E57B450254D541600D1E752 /* Build configuration list for PBXNativeTarget "MarkkAssignment_PrachiGadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E57B451254D541600D1E752 /* Debug */,
+				4E57B452254D541600D1E752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E57B418254D541200D1E752 /* Project object */;
+}

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-MarkkAssignment_PrachiGade/Pods-MarkkAssignment_PrachiGade-frameworks.sh
+${BUILT_PRODUCTS_DIR}/BSImagePicker/BSImagePicker.framework
+${BUILT_PRODUCTS_DIR}/Cloudinary/Cloudinary.framework
+${BUILT_PRODUCTS_DIR}/Floaty/Floaty.framework
